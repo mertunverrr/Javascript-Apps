@@ -1,0 +1,50 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#searchInput {
+    width:75%;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-wrapper{
+    margin: 15px 0px;
+}
+#searchButton{
+    width : 100px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: gray;
+    color: #fff;
+    box-shadow: 3px 5px 10px gray;
+}
+#clearButton{
+    width : 100px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: darkkhaki;
+    color: #fff;
+    box-shadow: 3px 5px 10px darkkhaki;
+}
+.imageList-wrapper{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 25px;
+    border: 10px solid grey;
+    border-radius: 5px;
+
+}

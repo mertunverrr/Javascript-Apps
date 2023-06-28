@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Döviz Kuru</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="main">
+            <div class="header">
+                Döviz Kuru Çevirici
+                <hr style="background-color: aqua;">
+            </div>
+            
+            <div class="content-wrapper">
+                <input id="amount" type="number" placeholder="miktar">
+                <select id="firstOption">
+                    <option selected>USD</option>
+                    <option>EUR</option>
+                    <option>CAD</option>
+                    <option>GBP</option>
+                    <option>CHF</option>
+                    <option>TRY</option>
+                </select>
+                <i class="fa-solid fa-arrow-right"></i>
+                <select id="secondOption">
+                    <option selected>TRY</option>
+                    <option>EUR</option>
+                    <option>CAD</option>
+                    <option>GBP</option>
+                    <option>CHF</option>
+                    <option>USD</option>
+                </select>
+
+                <input type="number" id="result" readonly placeholder="sonuç">
+<br>
+                <span>Copyright - Mert Ünver</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="currency.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

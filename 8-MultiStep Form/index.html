@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="stepRow">
+            <div id="progress"></div>
+            <div id="stepCol"><small>Step1</small></div>
+            <div id="stepCol"><small>Step2</small></div>
+            <div id="stepCol"><small>Step3</small></div>
+        </div>
+        
+        <form id="form1">
+            <h3>Create Account</h3>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm password">
+            <div class="btn">
+                <button type="button" id="nextBtn">Next</button>
+            </div>
+        </form>
+        <form id="form2">
+            <h3>Social Links</h3>
+            <input type="text" placeholder="Instagram">
+            <input type="text" placeholder="Github">
+            <input type="text" placeholder="Twitter">
+            <div class="btn">
+                <button type="button" id="backBtn2">Back</button>
+                <button type="button" id="nextBtn2">Next</button>
+            </div>
+        </form>
+        </form>
+        <form id="form3">
+            <h3>Personal Info</h3>
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+            <input type="tel" placeholder="Phone number" pattern="[0-9{10}]">
+            <div class="btn">
+                <button type="button" id="backBtn3">Back</button>
+                <button type="submit" id="submitBtn3">Submit</button>
+            </div>
+        </form>
+        
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

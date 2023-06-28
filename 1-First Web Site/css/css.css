@@ -1,0 +1,53 @@
+.pb40 {
+    padding-bottom: 40px;
+}
+.pb100 {
+    padding-bottom: 100px;
+}
+.pt50 {
+    padding-top: 50px;
+}
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.about-title>h2 {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.title-hr {
+    border-width: 2px;
+    background-color: #9c9c9c;
+    width: 20%;
+    margin-top: 0px;
+}
+
+.about-img>img {
+    width: 320px;
+    border-radius: 100px;
+    margin-left: 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Raleway, sans-serif;
+}
+
+.about-text>h3 {
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Indie Flower',cursive
+}
+about-text>p{
+    font-family: Athiti,sans-serif;
+    color: #777;
+    font-size: 16px;
+}
+.software-bar>p{
+    font-family: Athiti,sans-serif;
+    padding-bottom: 0px;
+    font-size: 16px;
+    padding-top: 30px;
+}
